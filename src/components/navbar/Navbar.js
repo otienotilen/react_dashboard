@@ -24,7 +24,7 @@ function Navbar() {
     <ul className="nav-profile">
       <li className="notifications new">
         <a href data-toggle="dropdown">
-          <i className="fa fa-bell-o" />
+          <i className="fa fa-bell" />
           <sup>
             <span className="counter">8</span>
           </sup>
