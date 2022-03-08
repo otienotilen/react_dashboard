@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="804.932" height="805.845" viewBox="0 0 804.932 805.845">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0f4c75"/>
+      <stop offset="1" stop-color="#08263b"/>
+    </linearGradient>
+    <filter id="Ellipse_15" x="0" y="0" width="804.932" height="805.845" filterUnits="userSpaceOnUse">
+      <feOffset dx="20" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#1b262c" flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_15)">
+    <ellipse id="Ellipse_15-2" data-name="Ellipse 15" cx="241" cy="222.5" rx="241" ry="222.5" transform="matrix(0.69, -0.72, 0.72, 0.69, 55, 401.72)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

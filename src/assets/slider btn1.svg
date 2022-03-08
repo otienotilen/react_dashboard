@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="slider_btn1" data-name="slider btn1" transform="translate(-2013 -1374)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(2013 1374)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="27.5" cy="27.5" r="27.5" stroke="none"/>
+      <circle cx="27.5" cy="27.5" r="27" fill="none"/>
+    </g>
+    <path id="Union_1" data-name="Union 1" d="M0,10.495l11.544,9.54ZM10.656,0,0,10.495Z" transform="translate(2034.728 1391.483)" fill="none" stroke="#707070" stroke-width="2"/>
+  </g>
+</svg>
