@@ -44,19 +44,19 @@ const Sales = () => {
     <div className='home-s'>
       <div className="top-s">
         <div className="top-s-content">
-          $4000<br/>
+          <h1 style={{color: "blue"}}>$4000</h1><br/>
           Total Revenue
           </div>
         <div className="top-s-content">
-          240<br/>
+         <h1 style={{color: "blue"}}>240</h1><br/>
           Total Orders
           </div>
         <div className="top-s-content">
-          1.2%<br/>
+          <h1 style={{color: "blue"}}>1.2%</h1><br/>
           Customer Churn Rate
           </div>
         <div className="top-s-content">
-          8.5%<br/>
+          <h1 style={{color: "blue"}}>8.5%</h1><br/>
           Repeat Purchase Rate
           </div>
       </div>
@@ -64,16 +64,22 @@ const Sales = () => {
       <div className="middle-s">
         <div className="middle-s-content">
           <h3>Customer Churn Rate</h3>
+          <br/>
+          <h4 style={{textAlign: "right"}}> Day of the Week<span class="fa fa-caret-down"></span></h4>
           <PieChart width={200} height={200}>
           <Pie 
            data={data} dataKey="value" 
            cx="50%" cy="50%" outerRadius={60}
            fill="#8884d8" />
           <Tooltip />
+          
         </PieChart>
+        
         </div>
         <div className="middle-s-content" style={{ textAlign: "center"}}>
           <h3>Most selling product</h3>
+          <br/>
+          <h4 style={{textAlign: "right"}}>Week<span class="fa fa-caret-down"></span> Month<span class="fa fa-caret-down"></span> Year <span class="fa fa-caret-down"></span></h4>
            <BarChart
           width={500}
           height={300}
